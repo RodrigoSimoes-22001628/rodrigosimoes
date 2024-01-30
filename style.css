@@ -30,7 +30,7 @@ li{
 }
 
 nav{
-    background-color: #fff;
+    background-color: white;
     position: sticky;
     top: 0;
     padding: 0 85px;
@@ -54,7 +54,6 @@ footer .logo a{
     font-size: 20px;
 }
 
-nav .logo img,
 footer .logo img{
     width: 40px;
     height: 40px;
@@ -67,7 +66,7 @@ footer .top ul{
 }
 
 nav button{
-    color: #1c1e53;
+    color: black;
     background-color: transparent;
     padding: 12px 16px;
     border-radius: 5px;
@@ -77,9 +76,9 @@ nav button{
 }
 
 nav button:hover{
-    background-color: #5e3bee;
+    background-color: black;
     border-color: #5e3bee;
-    color: #fff;
+    color: white;
 }
 
 nav button#menuButton{
@@ -105,13 +104,13 @@ nav button#menuButton{
     align-items: start;
 }
 
-.main .left h3{
+.main .left h2{
     margin-top: 10px;
     font-weight: bold;
     font-size: 46px;
 }
 
-.main .left h3 span{
+.main .left h2 span{
     color: #5e3bee;
 }
 
@@ -126,6 +125,13 @@ nav button#menuButton{
     color: #fff;
     cursor: pointer;
     background-color: #5e3bee;
+    padding: 14px 24px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.main .left button:hover{
+    background-color: black;
     padding: 14px 24px;
     border: 1px solid transparent;
     border-radius: 5px;
